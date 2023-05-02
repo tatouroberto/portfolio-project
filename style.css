@@ -75,15 +75,14 @@
     margin-right: 24px;
     font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 700px;
+    font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
     color: #172b4d;
     flex: none;
   }
-
   .parrafo {
     height: 146px;
     width: auto;
@@ -106,25 +105,22 @@
     width: 117px;
     margin-left: 24px;
     margin-right: 234px;
-    margin-top: 12px;
+    margin-top: 0;
   }
 
   .socialMedia .ul {
     display: flex;
     justify-content: left;
     color: #505f79;
-    padding: 1px;
-    margin-top: 12px;
+    padding: 6px;
+    margin-top: 0;
     list-style-type: none;
   }
 
-  .first {
-    padding-left: 16px;
-  }
 
   .icon {
     margin: 9px;
-    border-radius: 49px;
+    border-radius: 8px;
   }
 
   .icon:hover {
