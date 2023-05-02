@@ -1,7 +1,6 @@
 
 <a name="readme-top"></a>
 
-  <h3><b>Microverse README Template</b></h3>
 
 
 # 📗 Table of Contents
@@ -10,7 +9,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -66,8 +64,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -103,6 +99,7 @@ To run tests, run the following command:
 
 
 ### Deployment
+You can deploy this code on your computing machine by using a liveserver extension on Visual Studio code text editor or find an equivalent extension on any other brand you use.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,15 +145,6 @@ If you like this project you can download it from https://github.com/tatourobert
 
 i will like to thank Microverse for giving the opportunity to become a professional developer
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ  <a name="faq"></a>
-
-
-- What is the main funtion of this page ?
-
-  - This page is only a simple presentation of microverse Portfolio project.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
