@@ -9,14 +9,6 @@
   }
 
   .main {
-    border-radius: 0 0 10px 70px;
-    border: 1px solid #dfe1e6;
-    border-top: none;
-    width: auto;
-    height: 626px;
-  }
-
-  .header-section {
     background-image: url(img/header-shapes.png);
     background-size: cover;
     border-radius: 0 0 10px 70px;
@@ -58,6 +50,10 @@
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .fa-bars {
@@ -113,19 +109,22 @@
     margin-top: 12px;
   }
 
-  .socialMedia {
+  .socialMedia .ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     color: #505f79;
-    margin-right: 180.83px;
-    margin-left: 24px;
+    padding: 1px;
     margin-top: 12px;
+    list-style-type: none;
+  }
+
+  .first {
+    padding-left: 16px;
   }
 
   .icon {
-    padding: 8px 15px;
-    margin: 3px;
-    border-radius: 10px;
+    margin: 9px;
+    border-radius: 50px;
   }
 
   .icon:hover {
@@ -135,10 +134,5 @@
 
   .icon-3 {
     height: 20px;
-  }
-
-  .card-works {
-    width: 327px;
-    height: 552px;
   }
 }
