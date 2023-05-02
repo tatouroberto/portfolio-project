@@ -1,0 +1,137 @@
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f7f7f9;
+  }
+
+  .main {
+    background-image: url(img/header-shapes.png);
+    background-size: cover;
+    border-radius: 0 0 10px 70px;
+    border: 1px solid #dfe1e6;
+    border-top: none;
+    width: auto;
+    height: 626px;
+  }
+
+  .tallbar {
+    height: 44px;
+    width: auto;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .header-sub {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .logo {
+    color: #6070ff;
+    height: 20px;
+    width: auto;
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .fa-bars {
+    cursor: pointer;
+    color: #6070ff;
+    width: 16px;
+    margin-right: 36px;
+    margin-top: 7px;
+    font-size: 18px;
+    text-align: center;
+    height: 17px;
+  }
+
+  .title {
+    height: 150px;
+    margin-left: 24px;
+    padding-top: 128px;
+    margin-right: 24px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-style: normal;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    flex: none;
+  }
+
+  h1.h-title {
+    max-width: 300px;
+    font-weight: 700px;
+    font-size: 40px;
+  }
+
+  .parrafo {
+    height: 146px;
+    width: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 12px;
+  }
+
+  p {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #344563;
+  }
+
+  .connect {
+    height: 24px;
+    width: 117px;
+    margin-left: 24px;
+    margin-right: 234px;
+    margin-top: 0;
+  }
+
+  .socialMedia .ul {
+    display: flex;
+    justify-content: left;
+    color: #505f79;
+    padding: 6px;
+    margin: 0 8px;
+    list-style-type: none;
+  }
+
+  .icon {
+    margin: 9px;
+    border-radius: 8px;
+  }
+
+  .icon:hover {
+    background-color: #6070ff;
+    cursor: pointer;
+  }
+
+  .icon-3 {
+    height: 20px;
+  }
+}
