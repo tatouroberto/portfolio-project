@@ -82,7 +82,7 @@
     flex: none;
   }
 
-  .h-title {
+  h1.h-title {
     font-weight: 700px;
     font-size: 40px;
   }
