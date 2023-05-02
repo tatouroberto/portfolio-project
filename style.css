@@ -75,13 +75,16 @@
     margin-right: 24px;
     font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
-    font-weight: 700px;
-    font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
     color: #172b4d;
     flex: none;
+  }
+
+  .h-title {
+    font-weight: 700px;
+    font-size: 40px;
   }
 
   .parrafo {
