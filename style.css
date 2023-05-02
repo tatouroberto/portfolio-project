@@ -83,6 +83,7 @@
     color: #172b4d;
     flex: none;
   }
+
   .parrafo {
     height: 146px;
     width: auto;
@@ -116,7 +117,6 @@
     margin-top: 0;
     list-style-type: none;
   }
-
 
   .icon {
     margin: 9px;
