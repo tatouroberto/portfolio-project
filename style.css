@@ -31,7 +31,7 @@
     border-radius: 10px 70px 0 0;
     border: 1px solid #dfe1e6;
     border-top: none;
-    margin-top: 10%;
+    margin-top: 200px;
     width: auto;
     height: 626px;
   }
@@ -313,6 +313,7 @@
     display: flex;
     justify-content: space-between;
     width: 68%;
+    font-weight: 700;
     padding-left: 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 13px;
