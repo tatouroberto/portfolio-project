@@ -174,8 +174,8 @@
   }
 
   .ul {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    float:left;
     width: 68%;
     margin: 4% 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
