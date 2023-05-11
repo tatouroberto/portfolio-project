@@ -301,8 +301,8 @@
   }
 
   .ul-tag {
-    display: flex;
-    justify-content: space-between;
+    display:block;
+    float:left;
     width: 68%;
     margin: 4% 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
