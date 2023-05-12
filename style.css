@@ -506,6 +506,8 @@
   }
 
   .contact-section {
+    display: flex;
+    flex-direction: column;
     background-color: #6070ff;
     border-radius: 70px 10px 0 0;
     border: 1px solid #dfe1e6;
