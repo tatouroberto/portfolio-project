@@ -24,6 +24,7 @@ body {
   display: none;
 }
 
+
 .hearders {
   background: url("img/header-shapes.png");
   background-size: cover;
@@ -909,4 +910,22 @@ textarea {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+
+  .title-myself {
+    padding-top: 0;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+  }
+  @keyframes bounce {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 }
+
