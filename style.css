@@ -662,6 +662,13 @@ textarea {
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
+    transition: width 2s, height 2s, rotate 2s;
+  }
+
+  .logo:hover {
+    width: 200px;
+    height: 200px;
+    rotate: 360deg;
   }
 
   .tallbar {
@@ -676,6 +683,13 @@ textarea {
     line-height: 20px;
     color: #344563;
     text-align: center;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav-elements a:hover,
+  .nav-elements a:focus {
+    color: #00f;
+    background-color: #7f8cff;
   }
 
   .h-title {
@@ -683,6 +697,21 @@ textarea {
     color: #172b4d;
     padding-bottom: 0;
     padding-top: 50%;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .parrafo {
@@ -857,10 +886,6 @@ textarea {
     width: 75%;
   }
 
-  .title-myself {
-    padding-top: 0;
-  }
-
   .button {
     display: flex;
     justify-content: center;
@@ -883,5 +908,24 @@ textarea {
     padding-right: 30%;
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  .title-myself {
+    padding-top: 0;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
