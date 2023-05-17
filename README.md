@@ -27,7 +27,7 @@
 # 📖 [Microverse Portfolio project] <a name="about-project"></a>
 
 
-**Portfolio Microverse project** is a project that is developed in the module 1 of the microverse program to build portfolio.
+**Portfolio Microverse project** https://tatouroberto.github.io/ is a project that is developed in the module 1 of the microverse program to build portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,7 +99,7 @@ To run tests, run the following command:
 
 
 ### Deployment
-You can deploy this code on your computing machine by using a liveserver extension on Visual Studio code text editor or find an equivalent extension on any other brand you use.
+You can deploy this code on your computing machine by using a liveserver extension on Visual Studio code text editor or find an equivalent extension on any other brand you use. it will look like this https://tatouroberto.github.io/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
