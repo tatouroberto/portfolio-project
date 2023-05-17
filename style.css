@@ -11,9 +11,8 @@ body {
 
 .main {
   border-top: none;
-  width: auto;
-  height: auto;
-  
+  width: 100%;
+  height: 100%;
 }
 
 .header-section {
@@ -49,7 +48,6 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 24px;
   display: flex;
   justify-content: center;
@@ -250,7 +248,7 @@ p {
   justify-items: center;
   margin: 5%;
   gap: 1%;
-  width: 100%;  
+  width: 95%;
 }
 
 .card {
@@ -258,16 +256,16 @@ p {
   flex-direction: column;
   grid-gap: 1.5%;
   margin-top: 13%;
-  box-sizing: border-box;
   padding-top: 10%;
   padding-bottom: 20%;
-  width: 85%;
   height: auto;
+  width: 95%;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin-right: 18%;
-  margin-left: 3%;
+  padding-right: 13%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 h1 {
@@ -406,7 +404,6 @@ ul.canopy {
   background: #ebebff;
   border-radius: 8px;
   padding: 1% 4% 1% 4%;
-
 }
 
 .tag-in {
@@ -426,7 +423,6 @@ ul.canopy {
   color: #396df2;
   font-size: 90%;
 }
-
 
 .button:active {
   background: #2230d2;
@@ -642,10 +638,6 @@ textarea {
   display: none;
 }
 
-.stack {
-  display: flex;
-}
-
 textarea {
   height: 10em;
 }
@@ -682,7 +674,6 @@ textarea {
     padding: 6px;
     align-items: stretch;
     gap: 2em;
-    
   }
 
   .bb {
@@ -861,8 +852,6 @@ textarea {
     margin-left: 23%;
   }
 
- 
-
   .contacts p {
     width: 100%;
     padding-left: 10%;
@@ -873,7 +862,6 @@ textarea {
     padding-left: 20%;
     font-size: 30px;
   }
-
 
   .titleh2 {
     font-size: 80%;
@@ -886,7 +874,6 @@ textarea {
     -o-background-size: cover;
     background-size: contain, cover;
     width: 100%;
-    
   }
 
   .contact-section {
@@ -898,7 +885,6 @@ textarea {
     border-top: none;
     margin-top: 20%;
     width: 130%;
-    
   }
 
   .contact-button {
@@ -949,7 +935,6 @@ textarea {
     width: 75%;
   }
 
-
   .button {
     display: flex;
     justify-content: center;
@@ -980,7 +965,7 @@ textarea {
   .text {
     display: none;
   }
-  
+
   .ruby {
     display: flex;
   }
