@@ -43,11 +43,4 @@ ul.appendChild(li2);
 crossed.innerHTML = '';
 crossed.appendChild(ul);
 
-const cls = document.createElement('div');
-cls.classList.add('closeArrow');
-cls.innerHTML = '&#10006;';
-crossed.appendChild(cls);
 
-cls.addEventListener('click', () => {
-  close();
-});
