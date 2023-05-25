@@ -27,7 +27,7 @@
 # 📖 [Microverse Portfolio project] <a name="about-project"></a>
 
 
-**Portfolio Microverse project** https://tatouroberto.github.io/ is a project that is developed in the module 1 of the microverse program to build portfolio.
+**Portfolio Microverse project** [https://tatouroberto.github.io/] is a project that is developed in the module 1 of the microverse program to build portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
