@@ -7,12 +7,16 @@ body {
   font-size: 12px;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #e5e5e5;
+  overflow-x: hidden;
+  
+  
 }
 
 .main {
   border-top: none;
   width: 100%;
   height: 100%;
+
 }
 
 .header-section {
@@ -83,7 +87,6 @@ body {
 
 .desk-card-image {
   display: none;
-  width: 50%;
 }
 
 .logo {
@@ -182,6 +185,37 @@ p {
   color: #344563;
 }
 
+#mobilePopUpContainer {
+  
+  height: 90vh;
+  width: 90vw;
+  position: fixed;
+  padding-top: 0;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 3%;
+  padding-bottom: 0;
+}
+
+.main.active{
+  background-color: red;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#close-mobile-popup {
+  padding-top: 10%;
+  font-size: 20px;
+  margin-right: 3%;
+}
+
+.mobile-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  
+}
+
+
 .connect {
   height: 20px;
   width: 150px;
@@ -257,15 +291,50 @@ p {
   grid-gap: 1.5%;
   margin-top: 13%;
   padding-top: 10%;
+  justify-content: center;
   padding-bottom: 20%;
   height: auto;
   width: 95%;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  padding-right: 13%;
   margin-right: 0;
   margin-left: 0;
+}
+
+.cardpop {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5%;
+  margin-top: 13%;
+  padding-top: 10%;
+  justify-content: center;
+  padding-bottom: 20%;
+  height: auto;
+  width: 95%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.margin-mobile-popup {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.mobile-popup-button-container {
+  margin-right: 16px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line-separation {
+  margin-top: 1px;
+  padding-top: 1px;
 }
 
 h1 {
@@ -291,7 +360,6 @@ h2 {
   align-items: center;
   color: #172b4d;
   margin-bottom: 0;
-  margin-top: 4%;
 }
 
 .text {
@@ -358,7 +426,7 @@ h2 {
   justify-content: space-between;
   width: 65%;
   gap: 1%;
-  margin: 4% 0;
+  margin: 2% 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -553,6 +621,9 @@ ul.dropdown-items {
   display: flex;
   justify-content: space-between;
 }
+.header-sub.active {
+  display: none;
+}
 
 .crossed ul {
   padding-top: 17%;
@@ -560,6 +631,14 @@ ul.dropdown-items {
   flex-direction: column;
   align-items: start;
   gap: 4%;
+}
+
+.mobilepopup-container{
+  background-color: #c1c7d0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
 }
 
 .crossed li {
@@ -820,13 +899,51 @@ textarea {
     margin-top: 13%;
     box-sizing: border-box;
     padding: 0.5%;
-    margin-left: 32%;
+    margin-left: 1.5%;
     width: 95%;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 10px 10px 10px 10px;
-    margin-right: 10%;
+    margin-right: 1.5%;
   }
+
+  .cardpop {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1%;
+    margin-top: 13%;
+    padding-top: 10%;
+    justify-content: center;
+    padding-bottom: 20%;
+    height: auto;
+    width: 95%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mobilepopup-container {
+    width: 100%;
+    
+  }
+  #mobilePopUpContainer {
+  
+    height: 90vh;
+    width: 90vw;
+    position: fixed;
+    padding-top: 0;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 3%;
+    padding-bottom: 0;
+  }
+
+  .desk-card-image.active {
+    width: 90%;
+  }
+  
 
   .pic {
     display: none;
@@ -834,6 +951,7 @@ textarea {
 
   .desk-card-image {
     display: block;
+    width: 50%;
   }
 
   .myself-section {
@@ -921,6 +1039,19 @@ textarea {
     background-size: contain, cover;
     width: 100%;
   }
+
+  #mobilePopUpContainer {
+  
+    height: 85vh;
+    width: 90vw;
+    position: fixed;
+    padding-top: 0;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 3%;
+    padding-bottom: 0;
+  }
+
 
   .contact-section {
     display: flex;
@@ -1040,5 +1171,22 @@ textarea {
       margin-left: 0%;
       width: 100%;
     }
+  }
+
+  .pop {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5%;
+    margin-top: 13%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    height: auto;
+    width: 95%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding-right: 13%;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
